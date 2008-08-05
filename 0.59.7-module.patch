@@ -1,0 +1,11 @@
+--- origsrc/QtCurve-Gtk2-0.59.7/style/CMakeLists.txt	2008-07-30 14:17:37.000000000 -0500
++++ src/QtCurve-Gtk2-0.59.7/style/CMakeLists.txt	2008-08-05 02:19:57.968750000 -0500
+@@ -1,7 +1,7 @@
+ include_directories (${CMAKE_SOURCE_DIR} ${CMAKE_CURRENT_BINARY_DIR} ${CMAKE_SOURCE_DIR}/common ${CMAKE_BINARY_DIR} )
+ set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} ${GTK_CFLAGS}")
+ set(qtcurve_SRCS qtcurve.c)
+-add_library(qtcurve SHARED ${qtcurve_SRCS})
++add_library(qtcurve MODULE ${qtcurve_SRCS})
+ add_definitions(-DQTC_MOZILLA_DIR=\\\"${GTK_THEME_DIR}/mozilla\\\")
+ target_link_libraries(qtcurve ${GTK_LINK_FLAGS})
+ 
