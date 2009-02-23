@@ -1,0 +1,69 @@
+gtk2.0-engines-qtcurve
+------------------------------------------
+A matching set of widget theme engines for GTK2, Qt3, and Qt4.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libcairo2-1.8.6-1
+  libgdk_pixbuf2.0_0-2.14.7-2
+  libglib2.0_0-2.18.4-1
+  libgtk2.0_0-2.14.7-2
+  libpango1.0_0-1.22.4-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-20080624-2
+  cmake-2.6.2-3
+  cygport-0.4.2-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  pkg-config-0.23a-2
+
+Canonical website:
+  http://www.kde-look.org/content/show.php?content=40492
+
+Canonical download:
+  http://home.freeuk.com/cpdrummond/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gtk2.0-engines-qtcurve-0.61.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gtk2.0-engines-qtcurve-0.61.1-X.cygport all
+
+This will create:
+  /usr/src/gtk2.0-engines-qtcurve-0.61.1-X-src.tar.bz2
+  /usr/src/gtk2.0-engines-qtcurve-0.61.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/gtk-2.0/2.10.0/engines/cygqtcurve.dll
+  /usr/share/doc/gtk2.0-engines-qtcurve-0.61.1/AUTHORS
+  /usr/share/doc/gtk2.0-engines-qtcurve-0.61.1/COPYING
+  /usr/share/doc/gtk2.0-engines-qtcurve-0.61.1/ChangeLog
+  /usr/share/doc/gtk2.0-engines-qtcurve-0.61.1/README
+  /usr/share/doc/gtk2.0-engines-qtcurve-0.61.1/TODO
+  /usr/share/themes/QtCurve/gtk-2.0/gtkrc
+  /usr/share/themes/QtCurve/gtk-2.0/icons3
+  /usr/share/themes/QtCurve/gtk-2.0/icons4
+  /usr/share/themes/QtCurve/gtk-2.0/map_kde_icons.pl
+  /usr/share/themes/QtCurve/mozilla/QtCurve.css
+  /usr/share/themes/QtCurve/mozilla/firefox-user.js
+  /usr/share/themes/QtCurve/mozilla/mailto.sh
+  /usr/share/themes/QtCurve/mozilla/preferences-rev.xml
+
+------------------
+
+Port Notes:
+
+----- version 0.61.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
