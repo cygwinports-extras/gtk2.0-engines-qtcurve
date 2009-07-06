@@ -6,6 +6,3 @@ SRC_URI="http://home.freeuk.com/cpdrummond/QtCurve-Gtk2-${PV}.tar.bz2"
 PATCH_URI="0.59.7-module.patch"
 
 SRC_DIR="QtCurve-Gtk2-${PV}"
-
-# FIXME: remove when we switch to KDE4
-CYGCMAKE_ARGS="-DQTC_DEFAULT_TO_KDE3=true"
