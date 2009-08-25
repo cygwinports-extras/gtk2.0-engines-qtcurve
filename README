@@ -3,18 +3,18 @@ gtk2.0-engines-qtcurve
 A matching set of widget theme engines for GTK2, Qt3, and Qt4.
 
 Runtime requirements:
-  cygwin-1.7.0-50
-  libcairo2-1.8.6-10
+  cygwin-1.7.0-60
+  libcairo2-1.8.8-1
   libgcc1-4.3.2-2
-  libgdk_pixbuf2.0_0-2.16.3-1
+  libgdk_pixbuf2.0_0-2.16.5-1
   libglib2.0_0-2.20.4-1
-  libgtk2.0_0-2.16.3-1
+  libgtk2.0_0-2.16.5-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  binutils-20080624-2
+  binutils-2.19.51-1
   cmake-2.6.4-10
-  cygport-0.9.7-1
+  cygport-0.9.9-1
   gcc4-core-4.3.2-2
   make-3.81-2
   pkg-config-0.23b-10
@@ -28,15 +28,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gtk2.0-engines-qtcurve-0.65.3-X-src.tar.bz2
+  unpack gtk2.0-engines-qtcurve-0.67.4-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gtk2.0-engines-qtcurve-0.65.3-X.cygport all
+  cygport ./gtk2.0-engines-qtcurve-0.67.4-X.cygport all
 
 This will create:
-  /usr/src/gtk2.0-engines-qtcurve-0.65.3-X-src.tar.bz2
-  /usr/src/gtk2.0-engines-qtcurve-0.65.3-X.tar.bz2
+  /usr/src/gtk2.0-engines-qtcurve-0.67.4-X-src.tar.bz2
+  /usr/src/gtk2.0-engines-qtcurve-0.67.4-X.tar.bz2
 
 -------------------------------------------
 
@@ -59,6 +59,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.67.4-1 -----
+Version bump.
 
 ----- version 0.65.3-1 -----
 Initial release for Cygwin 1.7.
