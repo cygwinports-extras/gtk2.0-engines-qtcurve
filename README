@@ -3,19 +3,19 @@ gtk2.0-engines-qtcurve
 A matching set of widget theme engines for GTK2, Qt3, and Qt4.
 
 Runtime requirements:
-  cygwin-1.7.0-60
+  cygwin-1.7.1-1
   libcairo2-1.8.8-1
-  libgcc1-4.3.2-2
-  libgdk_pixbuf2.0_0-2.16.5-1
-  libglib2.0_0-2.20.4-1
-  libgtk2.0_0-2.16.5-1
+  libgcc1-4.3.4-3
+  libgdk_pixbuf2.0_0-2.18.3-1
+  libglib2.0_0-2.22.2-1
+  libgtk2.0_0-2.18.3-1
 
 Build requirements:
 (besides corresponding -devel packages)
   binutils-2.19.51-1
-  cmake-2.6.4-10
-  cygport-0.9.9-1
-  gcc4-core-4.3.2-2
+  cmake-2.8.0-11
+  cygport-0.9.80-1
+  gcc4-core-4.3.4-3
   make-3.81-2
   pkg-config-0.23b-10
 
@@ -28,37 +28,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gtk2.0-engines-qtcurve-0.67.4-X-src.tar.bz2
+  unpack gtk2.0-engines-qtcurve-1.0.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gtk2.0-engines-qtcurve-0.67.4-X.cygport all
+  cygport ./gtk2.0-engines-qtcurve-1.0.1-X.cygport all
 
 This will create:
-  /usr/src/gtk2.0-engines-qtcurve-0.67.4-X-src.tar.bz2
-  /usr/src/gtk2.0-engines-qtcurve-0.67.4-X.tar.bz2
+  /usr/src/gtk2.0-engines-qtcurve-1.0.1-X-src.tar.bz2
+  /usr/src/gtk2.0-engines-qtcurve-1.0.1-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/gtk-2.0/2.10.0/engines/cygqtcurve.dll
-  /usr/share/doc/gtk2.0-engines-qtcurve/AUTHORS
-  /usr/share/doc/gtk2.0-engines-qtcurve/COPYING
-  /usr/share/doc/gtk2.0-engines-qtcurve/ChangeLog
-  /usr/share/doc/gtk2.0-engines-qtcurve/README
-  /usr/share/doc/gtk2.0-engines-qtcurve/TODO
-  /usr/share/themes/QtCurve/gtk-2.0/gtkrc
-  /usr/share/themes/QtCurve/gtk-2.0/icons3
-  /usr/share/themes/QtCurve/gtk-2.0/icons4
-  /usr/share/themes/QtCurve/gtk-2.0/map_kde_icons.pl
-  /usr/share/themes/QtCurve/mozilla/QtCurve-KDEButtonOrder.css
-  /usr/share/themes/QtCurve/mozilla/QtCurve.css
-  /usr/share/themes/QtCurve/mozilla/preferences-rev.xml
-
-------------------
-
 Port Notes:
+
+----- version 1.0.1-1 -----
+Version bump.
 
 ----- version 0.67.4-1 -----
 Version bump.

@@ -2,7 +2,7 @@ inherit cmake
 
 DESCRIPTION="GTK+2 QtCurve theme engine"
 HOMEPAGE="http://www.kde-look.org/content/show.php?content=40492"
-SRC_URI="http://home.freeuk.com/cpdrummond/QtCurve-Gtk2-${PV}.tar.bz2"
+SRC_URI="http://craigd.wikispaces.com/file/view/QtCurve-Gtk2-${PV}.tar.bz2"
 PATCH_URI="0.59.7-module.patch"
 
 SRC_DIR="QtCurve-Gtk2-${PV}"
