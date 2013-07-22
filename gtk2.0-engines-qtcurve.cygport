@@ -1,11 +1,11 @@
 inherit cmake
 
 NAME="gtk2.0-engines-qtcurve"
-VERSION=1.8.15
+VERSION=1.8.16
 RELEASE=1
 CATEGORY="Gnome"
 SUMMARY="GTK+2 QtCurve theme engine"
 DESCRIPTION="A matching set of widget theme engines for GTK+/GNOME and Qt/KDE."
 HOMEPAGE="http://www.kde-look.org/content/show.php?content=40492"
-SRC_URI="http://craigd.wikispaces.com/file/view/QtCurve-Gtk2-${PV}.tar.bz2"
-SRC_DIR="QtCurve-Gtk2-${PV}"
+SRC_URI="http://craigd.wikispaces.com/file/view/QtCurve-Gtk2-${VERSION}.tar.bz2"
+SRC_DIR="QtCurve-Gtk2-${VERSION}"
